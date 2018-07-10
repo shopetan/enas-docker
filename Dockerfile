@@ -21,4 +21,3 @@ RUN git clone https://github.com/carpedm20/ENAS-pytorch.git
 WORKDIR /ENAS-pytorch
 RUN apt-get install -y graphviz libgraphviz-dev pkg-config
 RUN pip install -r requirements.txt
-#RUN python main.py --network_type rnn --dataset ptb --controller_optim adam --controller_lr 0.00035 --shared_optim sgd --shared_lr 20.0 --entropy_coeff 0.0001
